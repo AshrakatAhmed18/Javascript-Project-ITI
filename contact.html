@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <section id="header">
+    <a href="#"><img src="images/logo.png" id="logo" class="logo" alt="logo-image"></a>
+
+    <div id="navbar">
+      <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="shop.html">Shop</a></li>
+        <li><a  href="blog.html">Blog</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a  href="contact.html">Contact</a></li>
+        <li><a  id="add" href="cart.html"><img src="images/card.png" style="height: 30px; width: 30px;"></a></li>
+
+      </ul>
+    </div>
+  </section>
+  
+<section id="contactHeader" class="contactHeader">
+  <h2 id="h2contact">Contact Us Any Time</h2>
+
+</section>
+<section id="form">
+    <form>
+  <label for="input1">Name :</label>
+  <input value="" id="input1" type="text" placeholder="Plz,enter your name" pattern="[A-Za-z]{3,}"><br>
+
+
+<label for="email">Email :</label>
+<input
+value=""
+id="input2" 
+type="email"
+placeholder="Plz,enter your email"
+><br>
+
+<label for="password">Password :</label>
+<input
+value=""
+id="input3" 
+type="password"
+placeholder="Plz,enter your password"
+>
+    <div id="errormessages">
+    <p id="errorname">Name is not valid</p>
+    <p id="errorpassword">password must be 8 characters at least</p>
+    <p id="erroremail">Email is not valid</p></div>
+</form>
+</section>
+<div>
+  <button id="submit" onclick="submit()">submit</button>
+</div>
+
+<div id="whiteSpace">
+  <p></p>
+</div>
+<footer>
+  <div id="footer">
+  <div class="col">
+    <img id="logo" src="images/logo.png">
+    <h4>Contact</h4>
+    <p>Address : 6 El shon street Menofia,Egypt</p>
+    <p>Phone : 010123401201 </p>
+    <p>Hours : 8Am to 10PM , Sat. To Fri. </p>
+    <div class="follow">
+      <h4>Follow us</h4>
+      <div class="icons">
+       <img src="images/Social/facebook.png" alt="facebook icon" style="height:20px; width: 20px;">
+       <img src="images/Social/instagram.png" alt="instagram icon" style="height:20px; width: 20px;">
+       <img src="images/Social/twitter.png" alt="twitter icon" style="height:20px; width: 20px;">
+       <img src="images/Social/linkedin.png" alt="linkedin icon" style="height:20px; width: 20px;">
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <h4>About</h4>
+    <a href="#">About us</a>  
+    <a href="#">Delivery information</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <div class="col">
+    <h4>My Account</h4>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">My Wishlist</a>
+    <a href="#">Track My order</a>
+    <a href="#">Help</a>
+  </div>
+  <div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+</div>
+</footer>
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section id="header">
+    <a href="#"><img src="images/logo.png" id="logo" class="logo" alt="logo-image"></a>
+
+    <div id="navbar">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a  href="shop.html">Shop</a></li>
+        <li><a  href="blog.html">Blog</a></li>
+        <li><a  href="about.html">About</a></li>
+        <li><a  href="contact.html">Contact</a></li>
+        <li><a  href="cart.html"><img src="images/card.png" style="height: 30px; width: 30px;"></a></li>
+        <li><span id="display"></span></li>
+
+      </ul>
+    </div>
+  </section>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/banner/b3.jpg" style="width:100%; height: 500px">
+      <div class="text">
+        <h2 id="txtimage1">Clothing that makes you feel confident and beautiful.</h2>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/banner/b4.jpg" style="width:100%; height: 500px">
+      <div class="text">
+        <h2 id="txtimage2">Fashion that fits your lifestyle..</h2>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/banner/b17.jpg" style="width:100%;height: 500px">
+      <div class="text">
+        <p id="txtimage3">Save With ShoPPy up to 70%</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/banner/b18.jpg" style="width:100%;height: 500px">
+      <div class="text">
+        <button id="buttonhome">SHOP NOW!!</button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <section id="features" class="section-p1">
+    <div class="fe-box">
+      <img id="imgf1" src="images/features/f1.png">
+      <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+      <img id="imgf1" src="images/features/f2.png">
+      <h6>Online Order</h6>
+    </div>
+    <div class="fe-box">
+      <img id="imgf1" src="images/features/f3.png">
+      <h6>Save Money</h6>
+    </div>
+    <div class="fe-box">
+      <img id="imgf1" src="images/features/f4.png">
+      <h6>Promotions</h6>
+    </div>
+    <div class="fe-box">
+      <img id="imgf1" src="images/features/f5.png">
+      <h6>Happy Sell</h6>
+    </div>
+  </section>
+  <section id="products" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Modern Summer Set</p>
+    <div class="Product-Container">
+      <div class="pro">
+        <img src="images/products/f1.jpg">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+ 
+
+      <div class="pro">
+        <img src="images/products/f2.jpg">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+
+      <div class="pro">
+        <img src="images/products/f3.jpg">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/f4.jpg">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/n2.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/n7.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/n8.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/n3.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="products2" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Modern Summer Set</p>
+    <div class="Product-Container">
+      <div class="pro">
+        <img src="images/products/sk5.jpg" style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+ 
+
+      <div class="pro">
+        <img src="images/products/sk6.jpg" style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+
+      <div class="pro">
+        <img src="images/products/sk7.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/sk8.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/sk1.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/sk2.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/sk3.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/sk4.jpg" style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img onclick="cart()" id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="products3" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Modern Summer Set</p>
+    <div class="Product-Container">
+      <div class="pro">
+        <img src="images/products/d1.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+ 
+
+      <div class="pro">
+        <img src="images/products/d2.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+
+      <div class="pro">
+        <img src="images/products/d3.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/d4.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/d5.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/d6.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/d7.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/d8.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="products4" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Modern Summer Set</p>
+    <div class="Product-Container">
+      <div class="pro">
+        <img src="images/products/shoe1.jpg" style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+ 
+
+      <div class="pro">
+        <img src="images/products/shoe2.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+
+      <div class="pro">
+        <img src="images/products/shoe3.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/shoe4.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/shoe5.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/shoe6.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/shoe7.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+      <div class="pro">
+        <img src="images/products/shoe8.jpg"style="height: 300px;width:100%;">
+        <div class="discription">
+          <span>Adidas</span>
+          <h5>Ravin mens S21 T-Shirt</h5>
+          <div class="star">
+
+            <span id="star1" onclick="starcolored()" class="fa fa-star "></span>
+            <span id="star2" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star3" onclick="starcolored()"  class="fa fa-star "></span>
+            <span id="star4" onclick="starcolored()"  class="fa fa-star"></span>
+            <span id="star5" onclick="starcolored()"  class="fa fa-star"></span>
+
+          </div>
+          <h4>80$</h4>
+        </div>
+        <a style="padding: 0; margin: 0;" href="#"><img id="addtocard" src="images/Addtocart.png" style="width:40px ; height: 40px;"></a>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="buttons">
+  <button onclick="Tshirt()">T-Shirts</button>
+  <button onclick="Skirts()">Skirts</button>
+  <button onclick="Dresses()">Dresses</button>
+  <button onclick="Shoes()">Shoes</button>
+  </section>
+<section id="banner" class="section-ban">
+ <h4 id="banh4">Services</h4>
+ <h2 id="banh2">Up to <span>70% Off!</span> - All Clothes and shoes</h2>
+ <button id="banbutt">Explore More</button>
+</section>
+
+<footer id="footer">
+  <div class="col">
+    <img id="logo" src="images/logo.png">
+    <h4>Contact</h4>
+    <p>Address : 6 El shon street Menofia,Egypt</p>
+    <p>Phone : 010123401201 </p>
+    <p>Hours : 8Am to 10PM , Sat. To Fri. </p>
+    <div class="follow">
+      <h4>Follow us</h4>
+      <div class="icons">
+       <img src="images/Social/facebook.png" alt="facebook icon" style="height:20px; width: 20px;">
+       <img src="images/Social/instagram.png" alt="instagram icon" style="height:20px; width: 20px;">
+       <img src="images/Social/twitter.png" alt="twitter icon" style="height:20px; width: 20px;">
+       <img src="images/Social/linkedin.png" alt="linkedin icon" style="height:20px; width: 20px;">
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <h4>About</h4>
+    <a href="#">About us</a>  
+    <a href="#">Delivery information</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <div class="col">
+    <h4>My Account</h4>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">My Wishlist</a>
+    <a href="#">Track My order</a>
+    <a href="#">Help</a>
+  </div>
+  <div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
